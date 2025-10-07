@@ -1,13 +1,18 @@
 Pictures:
-    Missouri Map: https://www.cleanpng.com/png-jefferson-city-u-s-state-stock-photography-mo-2629444/download-png.html
-    St. Louis Arch: https://explorestlouis.com/wp-content/uploads/2024/03/The-Gateway-Arch-and-St.-Louis-Skyline-Header.jpg
-    Missouri Flag: https://www.sos.mo.gov/symbol/flag
     Link Icon: https://www.freeiconspng.com/img/9892
+    Missouri Map: https://www.cleanpng.com/png-jefferson-city-u-s-state-stock-photography-mo-2629444/download-png.html
+    Missouri Flag: https://www.sos.mo.gov/symbol/flag
+    St. Louis Arch: https://explorestlouis.com/wp-content/uploads/2024/03/The-Gateway-Arch-and-St.-Louis-Skyline-Header.jpg
+    St. Louis Flag: https://en.wikipedia.org/wiki/St._Louis#/media/File:Flag_of_St._Louis,_Missouri.svg
     State capital: https://en.wikipedia.org/wiki/Jefferson_City,_Missouri
+    Jefferson City Flag: https://en.wikipedia.org/wiki/Jefferson_City,_Missouri#/media/File:Flag_of_Jefferson_City,_Missouri.svg
+    Kansas Skyline: https://en.wikipedia.org/wiki/Kansas_City,_Missouri#/media/File:Kansas_City_-_Downtown_-_panoramio_(15).jpg
     Kansas City Flag: https://en.wikipedia.org/wiki/Flag_of_Kansas_City,_Missouri
 
 Information:
     Missouri Page: https://en.wikipedia.org/wiki/Missouri
                    https://datacommons.org/place/geoId/29?utm_medium=explore&mprop=income&popt=Person&cpv=age,Years15Onwards&hl=en
-    Kansas City: https://datacommons.org/place/geoId/2938000?utm_medium=explore&mprop=income&popt=Person&cpv=age,Years15Onwards&hl=en
-                 https://en.wikipedia.org/wiki/Kansas_City,_Missouri
+    Kansas City Page: https://datacommons.org/place/geoId/2938000?utm_medium=explore&mprop=income&popt=Person&cpv=age,Years15Onwards&hl=en
+                      https://en.wikipedia.org/wiki/Kansas_City,_Missouri
+    St. Louis Page: https://en.wikipedia.org/wiki/St._Louis
+                    https://datacommons.org/place/geoId/29189?q=St.+Louis+County%2C+MO%2C+USA
