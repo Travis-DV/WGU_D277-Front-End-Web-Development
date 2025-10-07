@@ -1,4 +1,5 @@
 # WGU_D277-Front-End-Web-Development
+Students run the CI Pipeline to create your D277 Front-End Web Development project for completing the PA
 First coding Project and Class For WGU. 
 
 ## Task 1

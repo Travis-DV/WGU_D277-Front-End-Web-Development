@@ -4,6 +4,10 @@ Pictures:
     Missouri Flag: https://www.sos.mo.gov/symbol/flag
     Link Icon: https://www.freeiconspng.com/img/9892
     State capital: https://en.wikipedia.org/wiki/Jefferson_City,_Missouri
+    Kansas City Flag: https://en.wikipedia.org/wiki/Flag_of_Kansas_City,_Missouri
 
 Information:
     Missouri Page: https://en.wikipedia.org/wiki/Missouri
+                   https://datacommons.org/place/geoId/29?utm_medium=explore&mprop=income&popt=Person&cpv=age,Years15Onwards&hl=en
+    Kansas City: https://datacommons.org/place/geoId/2938000?utm_medium=explore&mprop=income&popt=Person&cpv=age,Years15Onwards&hl=en
+                 https://en.wikipedia.org/wiki/Kansas_City,_Missouri

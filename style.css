@@ -2,6 +2,7 @@ html {
     font-size: 100%;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 * {
     padding: 0;
@@ -18,7 +19,7 @@ html {
 }
 
 
-.MoFlagLines{
+.FlagLines{
     width: 100%;
     height: 100%;
 
@@ -27,11 +28,11 @@ html {
     display: flex;
     flex-direction: column;
 }
-.MoFlagLines img {
+.FlagLines img {
     width: 100%;
     flex: 1;
 }
-.MoFlagImgNoDistort {
+.FlagImgNoDistort {
     width: auto;
     height: 100%;
     /*object-fit: cover;*/
@@ -42,7 +43,7 @@ html {
     transform: translate(-50%, -50%);
 }
 
-.MoTextDiv {
+.TextDiv {
     width: 100%;
     height: 100%;
 
@@ -57,7 +58,7 @@ html {
     height: 30%;
     flex: 1
 }
-.MoNameDiv {
+.TriNameDiv {
     width: 100%;
     height: 30%;
     flex: 1;
@@ -66,7 +67,7 @@ html {
     flex-direction: row;
 
 }
-.MoNameDiv h1 {
+.TriNameDiv h1 {
     width: 100%;
     height: auto;
 
@@ -82,35 +83,63 @@ html {
     align-items: center;
     justify-content: center;
 }
-.MoFullName {
+.BiNameDiv {
+    width: 100%;
+    height: 50%;
+    flex: 1;
+
+    display: flex;
+    flex-direction: row;
+
+}
+.BiNameDiv h1 {
+    width: 100%;
+    height: auto;
+
+    flex: 1;
+
+    font-size: 3em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#WhiteText {
+    color: white;
+}
+.FullName {
     white-space: preserve;
     margin-inline-start: 0;
     margin-inline-end: 5.5%;
 }
-.MoNickName {
+.NickName {
     margin-inline-start: 5.5%;
     margin-inline-end: 0;
 }
 
-.MoNav {
+.TriNav {
     width: 100%;
     height: 30%;
     flex: 1;
 
     display: flex;
 }
-.MoNav a, p {
+.TriNav a, p {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.MoNav a {
+.TriNav a {
     flex: 10;
 }
-.MoNav p {
+.TriNav p {
     flex: 1;
+    color: white;
 }
-.MoNav img {
+.TriNav img {
     width: auto;
     height: 30%;
 
@@ -120,13 +149,47 @@ html {
     align-items: center;
     justify-content: center;
 }
-.MoNav a h2{
+.TriNav a h2{
     color: white;
     text-decoration: underline;
     text-decoration-color: white;
     margin-right: 0.5%;
 }
+.BiNav {
+    width: 100%;
+    height: 50%;
+    flex: 1;
 
+    display: flex;
+}
+.BiNav a, p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BiNav a {
+    flex: 10;
+}
+.BiNav p {
+    flex: 1;
+    color: white;
+}
+.BiNav img {
+    width: auto;
+    height: 30%;
+
+    margin-right: 0.5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BiNav a h2{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+    margin-right: 0.5%;
+}
 
 .ContentDiv {
     width: 100%;
@@ -147,143 +210,34 @@ section img {
     width: 100%;
     height: auto;
 }
-
-
-.KansasCityCallout {
-    width: 20%;
-    height: 30%;
-
-    position: absolute;
-    left: 7.5%;
-    top: 35%;
+.RowSection {
+    flex-direction: column;
 }
-.KansasCityCallout .CalloutImg {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+.RowSection * {
+    flex: 1;
 }
-.KansasCityCallout h4 {
-    width: auto;
+.RowSection .ColumnDiv {
+    display: flex;
+    flex-direction: row;
+}
+.RowSection .ColumnDiv p {
+    flex: 1;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 1%;
+    padding-right: 5%;
+}
+.RowSection .ColumnDiv img {
+    flex: 1;
+    width: 10%;
     height: auto;
-
-    position: absolute;
-    left: 50%;
-    top: 25%;
-    transform: translate(-50%, -50%);
-
-    color: white;
-    text-decoration-color: white;
 }
-.KansasCityCallout .LinkIcon {
-    height: 10%;
-    width: auto;
-
-    position: absolute;
-    left: 25%;
-    top: 25%;
-    transform: translate(-50%, -50%);
+.RowSection table {
+    text-align: center;
 }
-.KansasCityCallout .EyeCandy {
-    height: 40%;
-    width: auto;
-
-    position: absolute;
-    left: 50%;
-    top: 52.5%;
-    transform: translate(-50%, -50%);
-}
-
-
-.JeffCityCallout {
-    width: 20%;
-    height: 30%;
-
-    position: absolute;
-    left: 30%;
-    top: 50%;
-}
-.JeffCityCallout .CalloutImg {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-.JeffCityCallout h4 {
-    width: auto;
+.RowSection th, .RowSection td {
     height: auto;
-
-    position: absolute;
-    left: 50%;
-    top: 25%;
-    transform: translate(-50%, -50%);
-
-    color: white;
-    text-decoration-color: white;
-}
-.JeffCityCallout .LinkIcon {
-    height: 10%;
-    width: auto;
-
-    position: absolute;
-    left: 22.5%;
-    top: 25%;
-    transform: translate(-50%, -50%);
-}
-.JeffCityCallout .EyeCandy {
-    height: 45%;
-    width: auto;
-
-    position: absolute;
-    left: 50%;
-    top: 52.5%;
-    transform: translate(-50%, -50%);
-}
-
-
-.StLouisCallout {
-    width: 20%;
-    height: 30%;
-
-    position: absolute;
-    left: 51%;
-    top: 40%;
-}
-.StLouisCallout .CalloutImg {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-.StLouisCallout h4 {
-    width: auto;
-    height: auto;
-
-    position: absolute;
-    left: 50%;
-    top: 25%;
-    transform: translate(-50%, -50%);
-
-    color: white;
-    text-decoration-color: white;
-}
-.StLouisCallout .LinkIcon {
-    height: 10%;
-    width: auto;
-
-    position: absolute;
-    left: 22.5%;
-    top: 25%;
-    transform: translate(-50%, -50%);
-}
-.StLouisCallout .EyeCandy {
-    height: 45%;
-    width: auto;
-
-    position: absolute;
-    left: 50%;
-    top: 52.5%;
-    transform: translate(-50%, -50%);
+    padding-top: .5%;
 }
 
 aside {

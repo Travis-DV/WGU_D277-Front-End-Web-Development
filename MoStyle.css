@@ -1,0 +1,142 @@
+.KansasCityCallout {
+    width: 20%;
+    height: 30%;
+
+    position: absolute;
+    left: 7.5%;
+    top: 50%;
+}
+.KansasCityCallout .CalloutImg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.KansasCityCallout h4 {
+    width: auto;
+    height: auto;
+
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    text-decoration-color: white;
+}
+.KansasCityCallout .LinkIcon {
+    height: 10%;
+    width: auto;
+
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+.KansasCityCallout .EyeCandy {
+    height: 40%;
+    width: auto;
+
+    position: absolute;
+    left: 50%;
+    top: 52.5%;
+    transform: translate(-50%, -50%);
+}
+
+
+.JeffCityCallout {
+    width: 20%;
+    height: 30%;
+
+    position: absolute;
+    left: 30%;
+    top: 55%;
+}
+.JeffCityCallout .CalloutImg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.JeffCityCallout h4 {
+    width: auto;
+    height: auto;
+
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    text-decoration-color: white;
+}
+.JeffCityCallout .LinkIcon {
+    height: 10%;
+    width: auto;
+
+    position: absolute;
+    left: 22.5%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+.JeffCityCallout .EyeCandy {
+    height: 45%;
+    width: auto;
+
+    position: absolute;
+    left: 50%;
+    top: 52.5%;
+    transform: translate(-50%, -50%);
+}
+
+
+.StLouisCallout {
+    width: 20%;
+    height: 30%;
+
+    position: absolute;
+    left: 52%;
+    top: 50%;
+}
+.StLouisCallout .CalloutImg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.StLouisCallout h4 {
+    width: auto;
+    height: auto;
+
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    text-decoration-color: white;
+}
+.StLouisCallout .LinkIcon {
+    height: 10%;
+    width: auto;
+
+    position: absolute;
+    left: 22.5%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+.StLouisCallout .EyeCandy {
+    height: 45%;
+    width: auto;
+
+    position: absolute;
+    left: 50%;
+    top: 52.5%;
+    transform: translate(-50%, -50%);
+}
+/*.MissouriMap {*/
+/*    height: auto;*/
+/*    max-height: 70vh;*/
+/*    width: 70vw;*/
+/*    object-fit: contain;*/
+/*}*/
