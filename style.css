@@ -1,0 +1,317 @@
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.base-header {
+    width: 100vw;
+    height: 30vh;
+    background-color: pink;
+    /*If seen there has been a glitch so it should be easy to know something it wrong*/
+
+    position: relative;
+}
+
+
+.MoFlagLines{
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+}
+.MoFlagLines img {
+    width: 100%;
+    flex: 1;
+}
+.MoFlagImgNoDistort {
+    width: auto;
+    height: 100%;
+    /*object-fit: cover;*/
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.MoTextDiv {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+
+}
+.dummyDiv {
+    width: 100%;
+    height: 30%;
+    flex: 1
+}
+.MoNameDiv {
+    width: 100%;
+    height: 30%;
+    flex: 1;
+
+    display: flex;
+    flex-direction: row;
+
+}
+.MoNameDiv h1 {
+    width: 100%;
+    height: auto;
+
+    flex: 1;
+
+    color: black;
+    font-size: 3em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MoFullName {
+    white-space: preserve;
+    margin-inline-start: 0;
+    margin-inline-end: 5.5%;
+}
+.MoNickName {
+    margin-inline-start: 5.5%;
+    margin-inline-end: 0;
+}
+
+.MoNav {
+    width: 100%;
+    height: 30%;
+    flex: 1;
+
+    display: flex;
+}
+.MoNav a, p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MoNav a {
+    flex: 10;
+}
+.MoNav p {
+    flex: 1;
+}
+.MoNav img {
+    width: auto;
+    height: 30%;
+
+    margin-right: 0.5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MoNav a h2{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+    margin-right: 0.5%;
+}
+
+
+.ContentDiv {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+section {
+    height: 100%;
+    width: 70%;
+
+    flex: 5;
+    display: flex;
+
+}
+section img {
+    width: 100%;
+    height: auto;
+}
+
+
+.KansasCityCallout {
+    width: 20%;
+    height: 30%;
+
+    position: absolute;
+    left: 7.5%;
+    top: 35%;
+}
+.KansasCityCallout .CalloutImg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.KansasCityCallout h4 {
+    width: auto;
+    height: auto;
+
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    text-decoration-color: white;
+}
+.KansasCityCallout .LinkIcon {
+    height: 10%;
+    width: auto;
+
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+.KansasCityCallout .EyeCandy {
+    height: 40%;
+    width: auto;
+
+    position: absolute;
+    left: 50%;
+    top: 52.5%;
+    transform: translate(-50%, -50%);
+}
+
+
+.JeffCityCallout {
+    width: 20%;
+    height: 30%;
+
+    position: absolute;
+    left: 30%;
+    top: 50%;
+}
+.JeffCityCallout .CalloutImg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.JeffCityCallout h4 {
+    width: auto;
+    height: auto;
+
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    text-decoration-color: white;
+}
+.JeffCityCallout .LinkIcon {
+    height: 10%;
+    width: auto;
+
+    position: absolute;
+    left: 22.5%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+.JeffCityCallout .EyeCandy {
+    height: 45%;
+    width: auto;
+
+    position: absolute;
+    left: 50%;
+    top: 52.5%;
+    transform: translate(-50%, -50%);
+}
+
+
+.StLouisCallout {
+    width: 20%;
+    height: 30%;
+
+    position: absolute;
+    left: 51%;
+    top: 40%;
+}
+.StLouisCallout .CalloutImg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.StLouisCallout h4 {
+    width: auto;
+    height: auto;
+
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    text-decoration-color: white;
+}
+.StLouisCallout .LinkIcon {
+    height: 10%;
+    width: auto;
+
+    position: absolute;
+    left: 22.5%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+.StLouisCallout .EyeCandy {
+    height: 45%;
+    width: auto;
+
+    position: absolute;
+    left: 50%;
+    top: 52.5%;
+    transform: translate(-50%, -50%);
+}
+
+aside {
+    height: 70vh;
+    min-height: 550px;
+    width: 30%;
+    padding-top: 2.5%;
+
+    background-color: gray;
+
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+aside p, aside h1, aside h2, aside h3 {
+    height: 100%;
+    width: auto;
+
+    padding-left: 2%;
+    padding-right: 2%;
+
+    display: flex;
+    text-align: center;
+}
+aside ul {
+    list-style-position:inside;
+    padding-left: 2%;
+    padding-right: 2%;
+}
