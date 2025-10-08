@@ -1,0 +1,129 @@
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: relative;
+    width: 100vw;
+    height: 30vh;
+}
+.HeaderText {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+
+    z-index: 2;
+}
+.FlagLines{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+}
+.FlagLines .red {
+    width: 100%;
+    flex: 1;
+}
+.FlagLines .white {
+    width: 100%;
+    flex: 1;
+}
+
+.z {
+
+}
+h1 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+
+nav {
+    width: 100vw;
+    height: 10%;
+    flex: 1;
+    padding-top: .5%;
+
+    display: flex;
+}
+nav a, p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav a {
+    flex: 10;
+}
+nav p {
+    flex: 1;
+    color: black;
+}
+nav img {
+    width: auto;
+    height: 30%;
+
+    margin-right: 0.5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav a h2{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+    margin-right: 0.5%;
+}
+.dummyDiv {
+    width: 100%;
+    height: 30%;
+    flex: 1
+}
+
+.FormDiv {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+.blue {
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    z-index: 1;
+}
+form {
+    width: 30%;
+    height: 50%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: black solid 1px;
+    background-color: lightblue;
+    padding: 0.5%;
+}
+form div {
+    justify-content: center;
+}
+form * {
+    padding-top: 2.5%;
+}
