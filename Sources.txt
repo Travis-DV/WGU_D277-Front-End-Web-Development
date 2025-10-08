@@ -16,3 +16,5 @@ Information:
                       https://en.wikipedia.org/wiki/Kansas_City,_Missouri
     St. Louis Page: https://en.wikipedia.org/wiki/St._Louis
                     https://datacommons.org/place/geoId/29189?q=St.+Louis+County%2C+MO%2C+USA
+    Jefferson City Page: https://en.wikipedia.org/wiki/Jefferson_City,_Missouri
+                         https://datacommons.org/place/geoId/2937000?q=Jefferson+City%2C+MO%2C+USA

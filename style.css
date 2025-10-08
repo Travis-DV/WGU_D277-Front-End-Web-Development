@@ -134,6 +134,9 @@ html {
 .TriNav a {
     flex: 10;
 }
+.TriNav a:hover h2 {
+    color: pink;
+}
 .TriNav p {
     flex: 1;
     color: white;
@@ -168,6 +171,9 @@ html {
 }
 .BiNav a {
     flex: 10;
+}
+.BiNav a:hover h2 {
+    color: pink;
 }
 .BiNav p {
     flex: 1;
@@ -220,17 +226,18 @@ section img {
     flex-direction: row;
 }
 .RowSection .ColumnDiv p {
-    flex: 1;
+    //flex: 1;
     padding-top: 1%;
     padding-bottom: 5%;
     padding-left: 1%;
     padding-right: 5%;
 }
 .RowSection .ColumnDiv img {
-    flex: 1;
+    //flex: 1;
     width: 10%;
     height: auto;
     padding-top: .5%;
+    float: right;
 }
 .RowSection table {
     text-align: center;
@@ -264,7 +271,7 @@ aside p, aside h1, aside h2, aside h3 {
     display: flex;
     text-align: center;
 }
-aside ul {
+aside ul, aside ol {
     list-style-position:inside;
     padding-left: 2%;
     padding-right: 2%;
