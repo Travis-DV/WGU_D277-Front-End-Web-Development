@@ -2,29 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>WGU D277 Front-End Web Development Task 2 - Missouri</title>
-    <link rel="stylesheet" type="text/css" href="CityStyle.css">
+    <title>WGU D277 Front-End Web Development Task 2 - Jefferson City</title>
     <link rel="stylesheet" type="text/css" href="Style.css">
 </head>
 <body>
 <header class="base-header">
     <div class="FlagLines">
-        <img src="Images/KsRed.png" height="10" width="10" alt="The red from the Kansas City Bi-Color as a banner across the top"/>
-        <img src="Images/KsBlue.png" height="10" width="10" alt="The blue from the Kansas City Bi-Color as a banner across the top"/>
+        <img src="Images/JcRed.png" height="10" width="10" alt="The red from the Jefferson City flag as a banner across the top"/>
+        <img src="Images/MoWhite.png" height="10" width="10" alt="The white from the Jefferson City flag as a banner across the top"/>
+        <img src="Images/JcBlue.png" height="10" width="10" alt="The blue from the Jefferson City flag as a banner across the top"/>
     </div>
-    <img class="FlagImgNoDistort" src="Images/KsFlag.png" height="720" width="1080" alt="The Bi-Color Kansas City Flag"/>
+    <img class="FlagImgNoDistort" src="Images/JcFlag.png" height="394" width="512" alt="The flag Jefferson City Flag"/>
     <div class="TextDiv">
-        <div class="BiNameDiv" id="WhiteText">
-            <h1 class="FullName">Kansas City</h1>
-            <h1 class="NickName">The City of Fountains</h1>
+        <div class="dummyDiv"></div>
+        <div class="TriNameDiv">
+            <h1 class="FullName">Jefferson City</h1>
+            <h1 class="NickName">Jeff City</h1>
         </div>
-        <nav class="BiNav">
+        <nav class="TriNav">
             <a href="KansasCity.html">
                 <img src="Images/Link-Icon.png" height="1024" width="1024" alt="Small Link Icon"/>
                 <h2>Kansas City</h2>
             </a>
             <p>|</p>
-            <a href="index.html" class="DownNav">
+            <a href="index.html" style="align-items: end;">
                 <img src="Images/Link-Icon.png" height="1024" width="1024" alt="Small Link Icon"/>
                 <h2>Home</h2>
             </a>
@@ -37,24 +38,58 @@
     </div>
 </header>
 <div class="ContentDiv">
-    <section>
+    <section class="RowSection">
+        <div class="ColumnDiv">
+            <p>
+                Jefferson City was designated as the state capital of Missouri in 1821, following Missouri's admission to the Union.
+                The state legislature and General Assembly moved to Jefferson City in 1825.
+                During the Civil War, the Union drove out the elected officials who were considered traitors.
+                After the Civil War, the government returned to Jefferson City and remains there today.
+            </p>
+            <img src="Images/MissouriCapitol.jpg" height="913" width="1600" alt="A picture of the capitol building of the state of Missouri"/>
+        </div>
+        <table id="table">
+            <tr>
+                <th>Label</th>
+                <th>Detail</th>
+            </tr>
+            <tr>
+                <td>Metro Population</td>
+                <td>149 Thousand</td>
+            </tr>
+            <tr>
+                <td>Incorporation Year</td>
+                <td>1825</td>
+            </tr>
+            <tr>
+                <td>Region</td>
+                <td>Central Missouri</td>
+            </tr>
+            <tr>
+                <td>Classification</td>
+                <td>Urban</td>
+            </tr>
+            <tr>
+                <td>Average Income</td>
+                <td>Above state average. 38.8k per year compared to 37.2k</td>
+            </tr>
+        </table>
 
     </section>
     <aside>
-        <h1>Kansas City</h1>
-        <h2>Also known by its city code, Ks and nickname, The City of Fountains.</h2>
+        <h1>Jefferson City</h1>
+        <h2>Also known by its city code, Jc, and nickname, The Jeff City.</h2>
         <br>
         <h3>Fun Facts: </h3>
         <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>The mound builders also inhabited it.</li>
+            <li>Jeff City is the third state capital, followed by St. Louis. Charles was both before it.</li>
+            <li>The village that later became Jefferson City was called initially Lohman's Landing.</li>
+            <li>The state prison housed in Jefferson City would hold many infamous American criminals, such as Martin Luther King Jr.'s assassin. The village that later became Jefferson City was called initially Lohman's Landing.</li>
         </ul>
         <br>
-        <a href="https://en.wikipedia.org/wiki/Missouri" target="_blank">Wikipedia: Missouri</a>
+        <a href="https://en.wikipedia.org/wiki/Kansas_City,_Missouri" target="_blank">Wikipedia: Kansas City</a>
+        <a href="https://datacommons.org/place/geoId/2938000?utm_medium=explore&mprop=income&popt=Person&cpv=age,Years15Onwards&hl=en" target="_blank">Kansas City Statistics</a>
     </aside>
 </div>
 </body>
